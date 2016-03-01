@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiny.Language.AbstractSyntax", "Tiny.Language.AbstractSyntax\Tiny.Language.AbstractSyntax.csproj", "{D1AC18F0-959B-4926-B5F2-0E94F8375A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiny.Language.SemanticModel", "Tiny.Language.SemanticModel\Tiny.Language.SemanticModel.csproj", "{5BF431F8-CBFB-4C1D-A9A4-BB66413D30D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiny.Host", "Tiny.Host\Tiny.Host.csproj", "{36BC7707-9F92-46CC-AF29-61354D96C34D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tiny.Language.Parsing", "Tiny.Language.Parsing\Tiny.Language.Parsing.fsproj", "{C3E4A65E-0DC1-409C-9531-FD44764E9A29}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tiny.Language.Parsing.Tests", "Tiny.Language.Parsing.Tests\Tiny.Language.Parsing.Tests.fsproj", "{7CD08CB5-8D61-44B5-84CF-20B6942AC91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyHost.Language", "TinyHost.Language\TinyHost.Language.csproj", "{223B1E08-1740-440B-A32B-2C92751FC703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiny.Language.Tests", "Tiny.Language.Tests\Tiny.Language.Tests.csproj", "{EDCDDFAE-A4D0-4690-B157-C6C22DD9634C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1AC18F0-959B-4926-B5F2-0E94F8375A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AC18F0-959B-4926-B5F2-0E94F8375A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AC18F0-959B-4926-B5F2-0E94F8375A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AC18F0-959B-4926-B5F2-0E94F8375A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF431F8-CBFB-4C1D-A9A4-BB66413D30D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF431F8-CBFB-4C1D-A9A4-BB66413D30D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF431F8-CBFB-4C1D-A9A4-BB66413D30D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF431F8-CBFB-4C1D-A9A4-BB66413D30D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BC7707-9F92-46CC-AF29-61354D96C34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BC7707-9F92-46CC-AF29-61354D96C34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BC7707-9F92-46CC-AF29-61354D96C34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BC7707-9F92-46CC-AF29-61354D96C34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E4A65E-0DC1-409C-9531-FD44764E9A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E4A65E-0DC1-409C-9531-FD44764E9A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E4A65E-0DC1-409C-9531-FD44764E9A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E4A65E-0DC1-409C-9531-FD44764E9A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD08CB5-8D61-44B5-84CF-20B6942AC91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD08CB5-8D61-44B5-84CF-20B6942AC91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD08CB5-8D61-44B5-84CF-20B6942AC91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD08CB5-8D61-44B5-84CF-20B6942AC91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223B1E08-1740-440B-A32B-2C92751FC703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223B1E08-1740-440B-A32B-2C92751FC703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223B1E08-1740-440B-A32B-2C92751FC703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223B1E08-1740-440B-A32B-2C92751FC703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCDDFAE-A4D0-4690-B157-C6C22DD9634C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCDDFAE-A4D0-4690-B157-C6C22DD9634C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCDDFAE-A4D0-4690-B157-C6C22DD9634C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCDDFAE-A4D0-4690-B157-C6C22DD9634C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
