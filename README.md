@@ -7,13 +7,13 @@ TinyPL is a very *very* simple language that evaluates simple expressions contai
     
 Running this program will prompt for values for `A` and `B` and then evaluate the expression `A * (B + 4)`.
 
-The code is a mixture of C# and F# using Visual Studio 2015. Open the solution and compile (which should restore all necessary nuget packages).
+The code is a mixture of C# and F# using Visual Studio 2015. Open the solution and compile (which should restore all necessary nuget packages). 
 
 This code accompanied a talk I gave at Brighton ALT.NET in 2015. It demonstrates creating a very simple DSL using the [FParsec](http://www.quanttec.com/fparsec/) library.
 
 The solution includes BDD tests written using [Specflow](http://www.specflow.org/) that demonstrate the DSL. Ensure you have the extension "Specflow for Visual Studio 2015" if you want to play with the tests. Open the feature file "Language.Feature" in the project "Tiny.Language.Tests" to see how the language works.
 
-The start project "Tiny.Host" allows you to type in Tiny Programs, demonstrates parsing (with nice error feedback), the JSON representation of the AST, and then running the programs.
+To run the code, set Tiny.Host as the start project. This allows you to type in Tiny Programs, demonstrates parsing (with nice error feedback), shows the JSON representation of the AST, and then runs the programs prompting for variable values.
 
 Have fun!
 
