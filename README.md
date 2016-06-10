@@ -7,7 +7,7 @@ TinyPL is a very *very* simple language that evaluates simple expressions contai
     
 Running this program will prompt for values for `A` and `B` and then evaluate the expression `A * (B + 4)`.
 
-The code is a mixture of C# and F# using Visual Studio 2015. Open the solution and compile (which should restore all necessary nuget packages). 
+The code is a mixture of C# and F# using Visual Studio 2015. Open the solution and compile (which should restore all necessary nuget packages). Units tests are in Xunit - and do run in Resharper with xUnit support enabled.
 
 This code accompanied a talk I gave at Brighton ALT.NET in 2015. It demonstrates creating a very simple DSL using the [FParsec](http://www.quanttec.com/fparsec/) library.
 
